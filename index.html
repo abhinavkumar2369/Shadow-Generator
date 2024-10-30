@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Shadow Generator</title>
+    
+    <!-- External CSS Linking -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  
+    <!-- Open Graph Meta Tags for Social Media Preview -->
+    <meta property="og:title" content="Shadow Generator">
+    <meta property="og:description" content="An interactive web tool to create and customize CSS box shadows in real-time.">
+    <meta property="og:image" content="https://abhinavkumar2369.github.io/Shadow-Generator/logo.png">
+    <meta property="og:url" content="https://abhinavkumar2369.github.io/Shadow-Generator/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Shadow Generator">
+</head>
+
+<body>
+    <div class="container">
+        <div class="preview">
+            <div class="box" id="box"></div>
+        </div>
+        <div class="controls">
+            <div class="control-group">
+                <label>Horizontal Offset</label>
+                <input type="range" id="horizontal" min="-50" max="50" value="0">
+            </div>
+            <div class="control-group">
+                <label>Vertical Offset</label>
+                <input type="range" id="vertical" min="-50" max="50" value="0">
+            </div>
+            <div class="control-group">
+                <label>Blur Radius</label>
+                <input type="range" id="blur" min="0" max="50" value="10">
+            </div>
+            <div class="control-group">
+                <label>Spread Radius</label>
+                <input type="range" id="spread" min="-25" max="25" value="0">
+            </div>
+            <div class="control-group">
+                <label>Shadow Color</label>
+                <input type="color" id="color" value="#000000">
+            </div>
+            <div class="control-group">
+                <label>Opacity</label>
+                <input type="range" id="opacity" min="0" max="100" value="20">
+            </div>
+        </div>
+        <div class="code-output" id="code-output"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
