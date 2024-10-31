@@ -46,7 +46,8 @@
 
 
 ## Overview 🌟
-- An interactive web tool 🚀 to create and customize CSS box shadows 🌟 in real-time. Built with HTML, CSS, and JavaScript.
+- An interactive web tool 🚀 to create and customize CSS box shadows 🌟 in real-time.
+- Built with HTML, CSS, and JavaScript.
 
 <!------------------------------------------------->
 
